@@ -1,0 +1,51 @@
+.banner{
+    background-image: url("FUNDO.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.navbar-brand{
+    margin: 0 0 0 50px;
+    font-size: 36px;
+}
+.navbar-light .navbar-brand{
+    color: #FFEBD2;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-left: 5px;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #FFEBD2;
+}
+
+.nav-link{
+    font-size: 20px;
+}
+
+.bannerParagrafo{
+   display: grid;
+   grid-template-areas: 
+   "paragrafo circulo";
+   grid-template-columns: 1.5fr 2fr;
+}
+
+.paragrafo{
+    margin: 0 0 0 60px;
+    align-self: center;
+    margin-bottom: 20px;
+    color: #FFEBD2;
+}
+
+.circulo {
+    background-color: aqua;
+	width: 500px;
+	height: 500px;
+	border: solid none;
+    border-radius: 50%;
+    margin: 50px 40px;
+    align-items: flex-end;
+    background-image: url("eu.jpg");
+    background-size: cover;
+}

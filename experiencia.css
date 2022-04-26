@@ -1,0 +1,24 @@
+.titulo-experiencia{
+    color: black;
+}
+
+.conteudo-experiencia{
+    margin-top: 5%;
+    
+}
+.carousel-item{
+    height: 50vh;
+    background-size: cover;
+}
+
+h5{
+    color: black;
+}
+
+.rodape{
+    background-color: #273248;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+}
+
